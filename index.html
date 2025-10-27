@@ -5,9 +5,6 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>DownloadHub — Tempat Download</title>
-  <meta name="description" content="Template halaman download siap pakai untuk GitHub Pages. Isi nama file, versi, ukuran, dan link download." />
-  <meta name="author" content="Your Name">  <!-- Open Graph -->  <meta property="og:title" content="DownloadHub — Nama File" />
-  <meta property="og:description" content="Unduh Nama File versi terbaru. Cepat, aman, dan mudah." />
   <meta property="og:type" content="website" />  <style>
     :root{--bg:#f7f8fb;--card:#fff;--text:#111;--muted:#556;--accent:#2563eb}
     [data-theme="dark"]{--bg:#0b1220;--card:#071122;--text:#e6eef8;--muted:#9fb0cf;--accent:#58a6ff}
@@ -16,7 +13,6 @@
     .container{max-width:960px;margin:24px auto;padding:16px}
     header{display:flex;align-items:center;justify-content:space-between;gap:12px}
     .brand{display:flex;align-items:center;gap:12px}
-    .logo{width:48px;height:48px;border-radius:8px;background:linear-gradient(135deg,var(--accent),#a78bfa);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700}
     h1{font-size:1.25rem;margin:0}
     p.lead{margin:6px 0 0;color:var(--muted)}
 
@@ -47,92 +43,41 @@
   </style></head>
 <body>
   <div class="container" id="page">
-    <header>
-      <div class="brand">
-        <div class="logo">DH</div>
-        <div>
-          <h1>DownloadHub</h1>
-          <p class="lead">Template GitHub Pages — Halaman download siap pakai</p>
-        </div>
-      </div>
-      <div style="display:flex;gap:8px;align-items:center">
-        <button id="toggleTheme" class="btn btn-ghost small">Toggle Theme</button>
-        <a class="btn small" href="#about">About</a>
-      </div>
-    </header><!-- DOWNLOAD CARD - duplicate this block for each file or create separate pages -->
+    
 <section class="card" id="download-card">
   <div class="download-grid">
-    <div class="thumb" id="thumb">PNG</div>
     <div>
-      <h2 id="file-title">Nama File — Versi 1.0.0</h2>
+      <h2 id="file-title">Nama File</h2>
       <div class="meta" style="margin-top:8px">
         <div class="badge">Ukuran: 45 MB</div>
         <div class="badge">Platform: Android</div>
-        <div class="badge">Update: 27 Okt 2025</div>
       </div>
 
       <p class="info small">Deskripsi singkat file. Jelaskan fungsi singkat, kompatibilitas, dan catatan penting (mis. izin Android atau persyaratan sistem).</p>
 
       <div class="buttons">
         <!-- main download button -->
-        <a id="primaryDownload" class="btn btn-primary" href="#" role="button">Download (Direct)</a>
-
-        <!-- mirror / external -->
-        <div style="display:flex;gap:8px;align-items:center">
-          <a class="btn btn-ghost small" id="mirror1" href="#">Mirror 1</a>
-          <a class="btn btn-ghost small" id="mirror2" href="#">Mirror 2</a>
-        </div>
+        <a id="primaryDownload" class="btn btn-primary" href="#" role="button">Download</a>
       </div>
 
-      <p class="muted small" style="margin-top:10px">Jika link rusak, laporkan melalui <a href="https://github.com/USERNAME/REPO/issues">Issues</a>.</p>
     </div>
   </div>
 
   <div style="margin-top:14px">
-    <div class="section-title">Fitur Utama</div>
-    <ul>
-      <li>Fitur 1 yang menjelaskan manfaat.</li>
-      <li>Fitur 2 terkait kompatibilitas.</li>
-      <li>Fitur 3 atau catatan instalasi.</li>
-    </ul>
-
-    <div class="section-title">Cara Install</div>
+  
+    <div class="section-title">Cara Download</div>
     <ol>
       <li>Download file dari tombol di atas.</li>
       <li>Pastikan izinkan instalasi dari sumber tidak dikenal (Android) jika perlu.</li>
       <li>Buka file dan ikuti instruksi.</li>
     </ol>
 
-    <div class="section-title">Changelog</div>
-    <pre class="small">v1.0.0 — Rilis awal
-
-v1.0.1 — Perbaikan minor</pre>
-
-<div class="section-title">Mirror / Links</div>
-    <div class="mirror-list small">
-      <a href="#">Google Drive</a>
-      <a href="#">Mediafire</a>
-      <a href="#">GitHub Releases</a>
-    </div>
-  </div>
 </section>
 
 <!-- END download card -->
 
-<section class="card" id="about">
-  <h3>Tentang</h3>
-  <p class="small muted">Halaman ini adalah template — edit konten, ganti link, dan duplikat bagian <code>download-card</code> untuk lebih banyak file. Untuk file besar (>100MB) gunakan Google Drive / Mega dan gunakan tombol mirror untuk arahkan ke sana.</p>
-
-  <h4 class="section-title">Cara tambahkan file baru</h4>
-  <ol class="small">
-    <li>Salin seluruh <code>&lt;section id="download-card"&gt;&lt;/section&gt;</code> ke bawah dan ubah teks / link.</li>
-    <li>Atau buat file baru: <code>downloads/nama-file.html</code> dan salin konten card ke file itu.</li>
-    <li>Pastikan link mirror diarahkan ke penyimpanan yang kamu pilih.</li>
-  </ol>
-</section>
-
 <footer>
-  © <span id="year"></span> DownloadHub • Dibuat dengan ❤️ untuk GitHub Pages
+  © <span id="year"></span> Zona Download ❤️
 </footer>
 
   </div>  <script>
