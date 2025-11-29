@@ -3,133 +3,209 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Game Guardian - Droid Ciyus</title>
-  
-  <!-- Open Graph -->
+  <title>Download Game Guardian APK - Zona Download</title>
+
   <meta property="og:title" content="Game Guardian APK" />
-  <meta property="og:description" content="Download game guardian terbaru apk" />
+  <meta property="og:description" content="Download Game Guardian Terbaru" />
   <meta property="og:type" content="website" />
+
   <style>
-    :root{--bg:#f7f8fb;--card:#fff;--text:#111;--muted:#556;--accent:#2563eb}
-    [data-theme="dark"]{--bg:#0b1220;--card:#071122;--text:#e6eef8;--muted:#9fb0cf;--accent:#58a6ff}
-    *{box-sizing:border-box}
-    body{margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,Arial;background:var(--bg);color:var(--text);line-height:1.45}
-    .container{max-width:960px;margin:24px auto;padding:16px}
-    header{display:flex;align-items:center;justify-content:space-between;gap:12px}
-    .brand{display:flex;align-items:center;gap:12px}
-    h1{font-size:1.25rem;margin:0}
-    p.lead{margin:6px 0 0;color:var(--muted)}
+    :root {
+      --bg:#f2f4f8;
+      --card:rgba(255,255,255,0.75);
+      --text:#0c1222;
+      --muted:#5f6c89;
+      --accent: #007BFF; /* Biru terang */
+      --accent2: #0056b3; /* Biru gelap */
+      --shadow:0 8px 25px rgba(0,0,0,0.08);
+    }
+    [data-theme="dark"] {
+      --bg:#050b17;
+      --card:rgba(16,24,42,0.55);
+      --text:#e8efff;
+      --muted:#9fb7dd;
+      --accent:#4f8bff;
+      --accent2:#82afff;
+      --shadow:0 8px 25px rgba(0,0,0,0.35);
+    }
 
-    /* Card */
-    .card{background:var(--card);border-radius:12px;padding:18px;margin-top:18px;box-shadow:0 6px 18px rgba(2,6,23,0.08)}
-    .download-grid{display:grid;grid-template-columns:120px 1fr;gap:16px;align-items:center}
-    .thumb{width:120px;height:120px;border-radius:8px;background:#eef2ff;display:flex;align-items:center;justify-content:center;font-weight:600}
-    .meta{display:flex;gap:12px;flex-wrap:wrap}
-    .meta .badge{background:rgba(0,0,0,0.06);padding:6px 10px;border-radius:999px;font-size:0.85rem}
+    * { box-sizing:border-box; font-family:"Inter",system-ui,Roboto,Arial; }
+    body { margin:0; background:var(--bg); color:var(--text); }
 
-    .buttons{display:flex;gap:12px;margin-top:12px}
-    .btn{padding:10px 14px;border-radius:10px;border:0;cursor:pointer;font-weight:600}
-    .btn-primary{background:var(--accent);color:white}
-    .btn-ghost{background:transparent;border:1px solid rgba(0,0,0,0.08)}
+    /* Proteksi copy-paste */
+    body {
+      -webkit-user-select:none;
+      -moz-user-select:none;
+      -ms-user-select:none;
+      user-select:none;
+    }
 
-    .info{margin-top:12px;color:var(--muted)}
-    .section-title{font-weight:700;margin-top:18px}
-    pre{background:rgba(0,0,0,0.03);padding:12px;border-radius:8px;overflow:auto}
+    .container {
+      max-width:900px;
+      margin:0 auto;
+      padding:22px 14px 40px;
+    }
 
-    footer{margin-top:28px;padding:12px;text-align:center;color:var(--muted);font-size:0.95rem}
+    .card {
+      background:var(--card);
+      backdrop-filter:blur(18px);
+      border-radius:18px;
+      padding:26px;
+      box-shadow:var(--shadow);
+      margin-top:24px;
+    }
 
-    /* responsive */
-    @media (max-width:640px){.download-grid{grid-template-columns:1fr;}.thumb{width:100%;height:200px}}
+    h2 {
+      font-size:1.15rem;
+      margin:0 0 6px 0;
+      background:linear-gradient(90deg,var(--accent),var(--accent2));
+      -webkit-background-clip:text;
+    }
 
-    .small{font-size:0.9rem}
-    .muted{color:var(--muted)}
-    .mirror-list{display:flex;gap:8px;flex-wrap:wrap}
-  </style></head>
+    h1 {
+      font-size:1.5rem;
+      font-weight:800;
+      text-align:center;
+      margin-bottom:12px;
+    }
+
+    .category-title {
+      font-size:1.25rem;
+      margin-top:26px;
+      margin-bottom:14px;
+      font-weight:800;
+      background:linear-gradient(90deg,var(--accent),var(--accent2));
+      -webkit-background-clip:text;
+    }
+
+    .info { color:var(--muted); line-height:1.55; }
+
+    .buttons { margin-top:14px; }
+    .btn {
+      padding:11px 18px;
+      border-radius:10px;
+      font-weight:600;
+      text-decoration:none;
+      display:inline-block;
+      color:white;
+      background: linear-gradient(135deg, var(--accent), var(--accent2)); /* Gradien biru */
+      box-shadow:0 4px 14px rgba(37,99,235,0.3);
+      transition:0.2s;
+      cursor:pointer;
+      border:none;
+    }
+    .btn:hover { opacity:0.92; transform:translateY(-1px); }
+
+    .download-item {
+      margin-top:24px;
+      padding-bottom:18px;
+      border-bottom:1px solid rgba(0,0,0,0.06);
+    }
+    .download-item:last-child { border:none; }
+
+    .section-title {
+      font-weight:700;
+      margin-top:28px;
+      margin-bottom:8px;
+      font-size:1.1rem;
+      background:linear-gradient(90deg,var(--accent),var(--accent2));
+      -webkit-background-clip:text;
+    }
+
+    ol { padding-left:18px; line-height:1.55; }
+
+    footer { text-align:center; margin-top:38px; font-size:0.9rem; color:var(--muted); }
+
+    #toggleTheme {
+      position:fixed;
+      bottom:20px;
+      right:20px;
+      background:var(--card);
+      padding:10px 12px;
+      border-radius:10px;
+      backdrop-filter:blur(10px);
+      cursor:pointer;
+      box-shadow:var(--shadow);
+    }
+  </style>
+</head>
+
 <body>
-  <div class="container" id="page">
-    
-<section class="card" id="download-card">
-  <div class="download-grid">
-    <div>
-      <h2 id="file-title">📥 Game Guardian (Original)</h2>
+  <div class="container">
 
-      <p class="info small">Game Guardian dengan 3 mode (Default, 32-bit dan 64-bit). Beberapa perangkat Android 14 ke atas mungkin mengalami kendala kompatibilitas.</p>
+    <h1>Download Game Guardian APK</h1>
 
-      <div class="buttons">
-        <!-- main download button -->
-        <a id="primaryDownload" class="btn btn-primary" href="https://sfl.gl/tAYWbt" role="button">Download</a>
+    <section class="card">
+      
+      <div class="category-title">Game Guardian (Latest Version)</div>
+        <p class="info">Beberapa perangkat Android 14 ke atas mungkin mengalami kendala kompatibilitas.</p>
+      
+      <div class="download-item">
+        <h2 id="file-title">📥 Game Guardian (Original)</h2>
+        <p class="info small">Game Guardian dengan 3 mode (Default, 32-bit dan 64-bit).</p>
+        <div class="buttons">
+          <button class="btn" data-link="https://sfl.gl/tAYWbt">Download</button>
+        </div>
       </div>
 
-    </div>
-  </div>
+      <div class="download-item">
+        <h2 id="file-title">📥 Game Guardian (32bit)</h2>
+        <p class="info small">Game Guardian dengan mode 32-bit.</p>
+        <div class="buttons">
+          <button class="btn" data-link="https://sfl.gl/QwI1Pn">Download</button>
+        </div>
+      </div
 
-  <div class="download-grid">
-    <div>
-      <h2 id="file-title">📥 Game Guardian (32bit)</h2>
-
-      <p class="info small">Game Guardian dengan mode 32-bit. Beberapa perangkat Android 14 ke atas mungkin mengalami kendala kompatibilitas.</p>
-
-      <div class="buttons">
-        <!-- main download button -->
-        <a id="primaryDownload" class="btn btn-primary" href="https://sfl.gl/QwI1Pn" role="button">Download</a>
+      <div class="download-item">
+        <h2 id="file-title">📥 Game Guardian (64bit)</h2>
+        <p class="info small">Game Guardian dengan mode 64-bit.</p>
+        <div class="buttons">
+          <button class="btn" data-link="https://sfl.gl/ZSNA">Download</button>
+        </div>
       </div>
+      
+    </section>
 
-    </div>
+    <footer>© <span id="year"></span> ❤️ Zona Download</footer>
   </div>
 
-  <div class="download-grid">
-    <div>
-      <h2 id="file-title">📥 Game Guardian (64bit)</h2>
+  <div id="toggleTheme">🌙 / ☀️</div>
 
-      <p class="info small">Game Guardian dengan mode 64-bit. Beberapa perangkat Android 14 ke atas mungkin mengalami kendala kompatibilitas.</p>
-
-      <div class="buttons">
-        <!-- main download button -->
-        <a id="primaryDownload" class="btn btn-primary" href="https://sfl.gl/ZSNA" role="button">Download</a>
-      </div>
-
-    </div>
-  </div>
-
-  <div style="margin-top:14px">
-  
-    <div class="section-title">📌 Cara Download</div>
-    <ol>
-      <li>Download file dari tombol di atas.</li>
-      <li>Klik tombol "Open" (tekan kembali jika ke tampilan lain).</li>
-      <li>Klik tombol "Next".</li>
-      <li>Klik tombol "Open".</li>
-      <li>Klik tombol "Open".</li>
-      <li>Klik tombol "Go to Link".</li>
-      <li>Klik tombol "Open Link".</li>
-      <li>Klik tombol "I'm a Human".</li>
-      <li>Klik tombol "Download File".</li>
-    </ol>
-    
-    <div class="section-title">📝 Catatan</div>
-    <p class="info small">Gunakan browser Firefox atau Brave untuk pengalaman download terbaik.</p>
-    </div>
-</section>
-
-<!-- END download card -->
-
-<footer>
-  © <span id="year"></span> Droid Ciyus ❤️
-</footer>
-
-  </div><script>
-    // theme toggle
+  <script>
+    // Theme toggle
     const toggle = document.getElementById('toggleTheme');
-    const root = document.documentElement;
     const saved = localStorage.getItem('theme');
-    if (saved==='dark') document.documentElement.setAttribute('data-theme','dark');
-    toggle.addEventListener('click',()=>{
+    if (saved === 'dark') document.documentElement.setAttribute('data-theme','dark');
+    toggle.addEventListener('click', () => {
       const now = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
       document.documentElement.setAttribute('data-theme', now);
       localStorage.setItem('theme', now);
     });
 
-    // fill year
+    // Update year
     document.getElementById('year').textContent = new Date().getFullYear();
-  </script></body>
+
+    // Menonaktifkan klik kanan pada halaman
+    document.addEventListener('contextmenu', function(event) {
+      event.preventDefault();
+    });
+
+    // Menonaktifkan salin teks
+    document.addEventListener('copy', function(event) {
+      event.preventDefault();
+    });
+
+    document.querySelectorAll('.btn[data-link]').forEach(btn => {
+      // Menonaktifkan klik kanan pada tombol download
+      btn.addEventListener('contextmenu', e => e.preventDefault());
+      
+      // Ketika tombol diklik, buka URL di halaman baru
+      btn.addEventListener('click', () => {
+        const url = btn.getAttribute('data-link');
+        window.location.href = url; // Arahkan pengguna ke halaman baru
+      });
+    });
+  </script>
+
+</body>
 </html>
