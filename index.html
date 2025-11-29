@@ -136,10 +136,7 @@
     <h1>Download Game Guardian APK</h1>
 
     <section class="card">
-      
-      <div class="category-title">Game Guardian (Latest Version)</div>
-        <p class="info">Beberapa perangkat Android 14 ke atas mungkin mengalami kendala kompatibilitas.</p>
-      
+ 
       <div class="download-item">
         <h2 id="file-title">📥 Game Guardian (Original)</h2>
         <p class="info small">Game Guardian dengan 3 mode (Default, 32-bit dan 64-bit).</p>
@@ -215,10 +212,10 @@
       // Menonaktifkan klik kanan pada tombol download
       btn.addEventListener('contextmenu', e => e.preventDefault());
       
-      // Ketika tombol diklik, buka URL di halaman baru
+      // Ketika tombol diklik, buka URL di tab baru
       btn.addEventListener('click', () => {
         const url = btn.getAttribute('data-link');
-        window.location.href = url; // Arahkan pengguna ke halaman baru
+        window.open(url, '_blank'); // Arahkan pengguna di tab baru
       });
     });
   </script>
